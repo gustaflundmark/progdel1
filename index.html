@@ -55,7 +55,7 @@
 
 	<section class="intro" id="zen-intro">
 		<header role="banner">
-			<h1>Exsitec Prog. Del 1</h1>
+			<h1>Exsitec Prog.utb. Del 1</h1>
 			<h2>HTML, JS & CSS</h2>
 		</header>
 
@@ -65,7 +65,16 @@
 		</div> -->
 
 		<div class="summary" id="zen-summary" role="article">
-			<iframe src="https://oscarbarthelsson.github.io/AllSites/" frameborder="0" id="allsites" width="100%" height="100%"></iframe>
+			<img src="allsitesbg.png" style="width:377px; height: 225px;" alt="" onclick="myFunction()" id="allsites">
+			<!-- <a href="https://oscarbarthelsson.github.io/AllSites/" target="_blank" style="margin-left: 37px;"><img src="allsitesbg.png" style="width:377px; height: 225px;" alt=""></a> -->
+			<!-- Resources on other origins must be CORS-enabled. -->
+			<!-- <link rel="import" href="https://oscarbarthelsson.github.io/AllSites/"> -->
+			<!-- <object data="https://oscarbarthelsson.github.io/AllSites#page=1&zoom=300" width="390" height="360" id="allsites">
+				<embed src="https://oscarbarthelsson.github.io/AllSites#page=1&zoom=300" width="390" height="360"> </embed>
+				Error: Embedded data could not be displayed.
+			</object> -->
+			
+
 		</div>
 
 		<div class="preamble" id="zen-preamble" role="article">
@@ -173,6 +182,17 @@
 -->
 <div class="extra1" role="presentation"></div><div class="extra2" role="presentation"></div><div class="extra3" role="presentation"></div>
 <div class="extra4" role="presentation"></div><div class="extra5" role="presentation"></div><div class="extra6" role="presentation"></div>
+
+<!-- <img src="jakob.jpg" id="jakob" alt=""> -->
+
+<iframe src="https://oscarbarthelsson.github.io/AllSites/" frameborder="0" class="synlighet" id="iframefullscreen"></iframe>
+
+<script>
+	function myFunction() {
+	  document.getElementById("iframefullscreen").style.display = "block";
+	}
+</script>
+	
 
 </body>
 </html>
