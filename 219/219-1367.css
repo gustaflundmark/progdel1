@@ -231,14 +231,14 @@ h2 {
 
     .preamble:hover {
         bottom: 10%;
-        left: 50%;
+        left: 50%;  
         margin: 0 0 0 -490px;
         color: #fff;
-        -moz-transform: rotateY(0) scale(2);
-        -ms-transform: scale(3);
-        -o-transform: rotateY(0) scale(2);
-        -webkit-transform: rotateY(0) scale(2);
-        transform: rotateY(0) scale(2);
+        -moz-transform: rotateY(0) scale(1);
+        -ms-transform: scale(1);
+        -o-transform: rotateY(0) scale(1);
+        -webkit-transform: rotateY(0) scale(1);
+        transform: rotateY(0) scale(1);
     }
 
 .summary {
@@ -297,11 +297,11 @@ h2 {
         bottom: 40%;
         margin: 0 -460px 0 0;
         color: #fff;
-        -moz-transform: rotateY(0) scale(1);
-        -ms-transform: scale(1);
-        -o-transform: rotateY(0) scale(1);
-        -webkit-transform: rotateY(0) scale(1);
-        transform: rotateY(0) scale(1);
+        -moz-transform: rotateY(0) scale(2);
+        -ms-transform: scale(2);
+        -o-transform: rotateY(0) scale(2);
+        -webkit-transform: rotateY(0) scale(2);
+        transform: rotateY(0) scale(2);
     }
 
 /** $main */
